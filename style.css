@@ -2,5 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: pink;
+}
+
+
+.element{
+    background-color: #FFFBF2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    font-size: 28px;
 }
