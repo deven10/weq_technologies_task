@@ -15,3 +15,4 @@ counters.forEach((counter, index) => {
     }
     updateCounter();
 });
+

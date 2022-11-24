@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEQ Technologies Task</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" ></script>
 </head>
 <body>
         <!-- First Section Element -->
@@ -22,25 +28,25 @@
 
             <div class="section globe_section">
                 <i class="fa-solid fa-globe icon globe_icon"></i>
-                <p class="numbers" data-target="1800">0</p>
+                <div class="numbers" data-target="1800">1800</div>
                 <p class="text globe_text">Web Designing</p>
             </div>
 
             <div class="section rocket_section">
                 <i class="fa-solid fa-rocket icon rocket_icon"></i>
-                <p class="numbers" data-target="1200">0</p>
+                <div class="numbers" data-target="1200">1200</div>
                 <p class="text rocket_text">Web Development</p>
             </div>
 
             <div class="section briefcase_section">
                 <i class="fa-sharp fa-solid fa-briefcase icon briefcase_icon"></i>
-                <p class="numbers" data-target="3000">0</p>
+                <div class="numbers" data-target="3000">3000</div>
                 <p class="text briefcase_text">Brand Building</p>
             </div>
 
             <div class="section mobile_button_section">
                 <i class="fa-solid fa-mobile-button icon mobile_button_icon"></i>
-                <p class="numbers" data-target="1000">0</p>
+                <div class="numbers" data-target="1000">1000</div>
                 <p class="text mobile_button_text">Responsive Design</p>
             </div>
 
@@ -50,6 +56,15 @@
         <div class="third__div element">
             <h2>Thank you for reviewing my task, have a good day ahead.</h2>
         </div>
-    <script src="app.js"></script>
+    
+    <!-- <script src="./app.js"></script> -->
+    <script>
+        jQuery(document).ready(function($) {
+             $('.numbers').counterUp({
+                 delay: 10,
+                 time: 1400
+             });
+         });
+     </script>
 </body>
 </html>
