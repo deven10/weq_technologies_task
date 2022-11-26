@@ -50,15 +50,9 @@ h2{
 .globe_section{
     left: 0;
     bottom: 0;
-    border-left: 12px solid rgb(233, 104, 57);
-    border-bottom: 12px solid rgb(233, 104, 57);
     outline-offset: 20px;
     outline-style: solid;
     outline-width: 3px;
-    border-left-width: 16px;
-    border-left-style: solid;
-    border-bottom-width: 16px;
-    border-bottom-style: solid;
 }
 .rocket_section{
     outline-offset: 20px;
